@@ -70,7 +70,7 @@ class SQLmanage{
         $OutputQry->execute();
         return $OutputQry->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function QueryFetchAllAssocฺByPrepare($QrySelect,$Array){
+    public function QueryFetchAllAssocByPrepare($QrySelect,$Array){
         $OutputQry = $this->_dbConnect->prepare($QrySelect);
         $OutputQry->execute($Array);
         return $OutputQry->fetchAll(PDO::FETCH_ASSOC);
@@ -82,7 +82,7 @@ class SQLmanage{
         $OutputQry->execute();
         return $OutputQry->fetch(PDO::FETCH_NUM);            
     }
-    public function QueryFetchNumฺByPrepare($QrySelect,$Array){
+    public function QueryFetchNumByPrepare($QrySelect,$Array){
     $OutputQry = $this->_dbConnect->prepare($QrySelect);
     $OutputQry->execute($Array);
     return $OutputQry->fetch(PDO::FETCH_NUM);            
@@ -92,7 +92,7 @@ class SQLmanage{
         $OutputQry->execute();
         return $OutputQry->fetch(PDO::FETCH_ASSOC);
     }
-    public function QueryFetchAssocฺByPrepare($QrySelect,$Array){
+    public function QueryFetchAssocByPrepare($QrySelect,$Array){
         $OutputQry = $this->_dbConnect->prepare($QrySelect);
         $OutputQry->execute($Array);
         return $OutputQry->fetch(PDO::FETCH_ASSOC);
