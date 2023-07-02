@@ -9,4 +9,5 @@
   <li>StoreProcedure เหมาะกับการทำงานร่วมกับ Stored Procedure in MySQL </li>
   <li>QueryFetchAllNum, QueryFetchAllNumByPrepare, QueryFetchAllAssoc, QueryFetchAllAssocByPrepare นำไปใช้ร่วมกับ Select เพื่อดึงค่าทั้งหมด</li>
   <li>QueryFetchNum, QueryFetchNumByPrepare, QueryFetchAssoc, QueryFetchAssocByPrepare นำไปใช้ร่วมกับ Select เพื่อดึงค่าแค่ 1 ตัว</li>
+  <li>Pagination ฟังก์ชั่นสำหรับการเลื่อนหน้าข้อมูล Ex. << | 1 | 2 | 3 | >> </li>
 </ol>
